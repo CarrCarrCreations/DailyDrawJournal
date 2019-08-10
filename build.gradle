@@ -66,6 +66,9 @@ compileJava.dependsOn copyWebApp
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-data-jpa'
+    compile group: 'org.postgresql', name: 'postgresql', version: '42.2.6'
+
 
     // Development Only
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
