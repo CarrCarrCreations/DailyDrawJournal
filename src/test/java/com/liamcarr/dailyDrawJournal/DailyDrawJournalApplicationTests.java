@@ -11,7 +11,7 @@ public class DailyDrawJournalApplicationTests {
 
     @Test
     public void contextLoads() {
-        
+
     }
 
 }

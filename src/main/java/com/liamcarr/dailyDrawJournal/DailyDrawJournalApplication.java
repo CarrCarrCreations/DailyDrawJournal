@@ -13,6 +13,7 @@ public class DailyDrawJournalApplication {
 //    https://wiki.jenkins.io/display/JENKINS/Installing+Jenkins+with+Docker Jenkins Docker
 //    docker ps; docker exec -it <mycontainer> bash   get container name and SSH into docker container
 //    https://devops4solutions.com/ci-cd-using-jenkins-heroku/ setup jenkins heroku pipeline
+//    https://www.baeldung.com/spring-boot-h2-database Setup and use H2 database
 
     public static void main(String[] args) {
         SpringApplication.run(DailyDrawJournalApplication.class, args);
