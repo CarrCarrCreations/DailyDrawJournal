@@ -72,10 +72,10 @@ dependencies {
 
     // Development Only
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
-    developmentOnly 'com.h2database:h2:1.4.199'
+//    developmentOnly 'com.h2database:h2:1.4.199'
 
 
     // Testing
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
-    testImplementation 'com.h2database:h2:1.4.199'
+//    testImplementation 'com.h2database:h2:1.4.199'
 }
