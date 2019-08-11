@@ -14,8 +14,9 @@ public class HelloController {
         this.greetingRepository = greetingRepository;
     }
 
-    @GetMapping("/greetings")
+    @GetMapping("/api/greetings")
     Iterable<Greeting> getGreetings() {
+        System.out.println("Greetings Hit!");
         return greetingRepository.findAll();
     }
 }
