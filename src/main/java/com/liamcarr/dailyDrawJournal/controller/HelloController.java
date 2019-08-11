@@ -14,11 +14,6 @@ public class HelloController {
         this.greetingRepository = greetingRepository;
     }
 
-    @GetMapping("/")
-    String hello() {
-        return "hello World";
-    }
-
     @GetMapping("/greetings")
     Iterable<Greeting> getGreetings() {
         return greetingRepository.findAll();
